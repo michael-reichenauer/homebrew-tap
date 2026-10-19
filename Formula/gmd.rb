@@ -3,24 +3,24 @@
 class Gmd < Formula
   desc "Git client for the terminal that shows only the branches you choose"
   homepage "https://github.com/michael-reichenauer/gmd"
-  version "1.12.1448.496"
+  version "1.13.1450.1146"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/michael-reichenauer/gmd/releases/download/v1.12.1448.496/gmd_osx_arm64"
-    sha256 "19773a1ed984f93c8380fe11d608f2a532f9b80d397df12b38376812d4ffd3d3"
+    url "https://github.com/michael-reichenauer/gmd/releases/download/v1.13.1450.1146/gmd_osx_arm64"
+    sha256 "c280f9f75d6d03b39dd0be5583361d15136e9945d3e98c4481972dec7e2a3e47"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michael-reichenauer/gmd/releases/download/v1.12.1448.496/gmd_linux_arm64"
-      sha256 "d776dc6da3f7dd95785130c430bb7e6116350fd1dea7c29ef9a5b38c16c89d02"
+      url "https://github.com/michael-reichenauer/gmd/releases/download/v1.13.1450.1146/gmd_linux_arm64"
+      sha256 "ec710af78d71bea269fe61a9d0750f5b3ea81ed5957f1432d1f13826c365d694"
     end
     on_intel do
-      url "https://github.com/michael-reichenauer/gmd/releases/download/v1.12.1448.496/gmd_linux_x64"
-      sha256 "eed3e73d159d7387b0b9c711256c92f0c34ee469b28c8bdf024723a230e70372"
+      url "https://github.com/michael-reichenauer/gmd/releases/download/v1.13.1450.1146/gmd_linux_x64"
+      sha256 "371ffeee8fb224c8b04a6d364bc7a753044e31b3ae969ad90a7a3ccfe2cc15f0"
     end
   end
 
